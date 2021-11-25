@@ -2,7 +2,7 @@ PREFIX 	=
 CC 	= $(PREFIX)gcc
 AR 	= $(PREFIX)ar
 RANLIB	= $(PREFIX)ranlib
-CFLAGS	= -O2 -std=c11
+CFLAGS  = -O2 -std=c11 -no-pie
 
 TARGET = build/libjabcode.a
 
